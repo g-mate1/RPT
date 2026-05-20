@@ -1,0 +1,37 @@
+Population: ATX 20, DAX 40, n=60.
+Sum of § 95c (AT) / § 111c (DE) notices in calendar year 2024: 1.
+  → The Siemens Energy notice (India stake sale to Siemens AG) was dated 8 Dec 2023, i.e. inside FY2023/24 but BEFORE calendar 2024. Calendar-year 2024 publications = 0 across all 60.
+
+Absolute binding threshold (EUR m):
+  ATX (5% BS or 2.5% U, lower binds): min 6, 25th 54, median 108, 75th 206, max 850.
+  DAX (1.5% Bilanzsumme): min 82, 25th 483, median 1000, 75th 2008, max 20925.
+  Ratio of medians DAX / ATX = 9.3x.
+
+Companies whose largest *disclosed* RPT line item exceeds the binding threshold (numerically, before applying SRD II exemptions):
+  Total: 18 of 60 (30%) — ATX 8 / 20, DAX 10 / 40.
+   CA Immobilien Anlagen               (ATX): largest RPT EUR     60 m vs threshold EUR     6 m → 10.1x · Ausnahme: PRO_RATA_DIV
+   PIERER Mobility                     (ATX): largest RPT EUR    372 m vs threshold EUR    47 m →  7.9x · Ausnahme: POST_DECONS
+   Verbund                             (ATX): largest RPT EUR    682 m vs threshold EUR   206 m →  3.3x · Ausnahme: PRO_RATA_DIV
+   Siemens Energy                      (DAX): largest RPT EUR   2081 m vs threshold EUR   841 m →  2.5x · Ausnahme: nan
+   BASF                                (DAX): largest RPT EUR   2943 m vs threshold EUR  1206 m →  2.4x · Ausnahme: ORDINARY
+   Porsche AG                          (DAX): largest RPT EUR   2062 m vs threshold EUR   908 m →  2.3x · Ausnahme: CONSOL
+   EVN                                 (ATX): largest RPT EUR    182 m vs threshold EUR    81 m →  2.2x · Ausnahme: PRO_RATA_DIV
+   Porsche SE                          (DAX): largest RPT EUR   1400 m vs threshold EUR   643 m →  2.2x · Ausnahme: PRO_RATA_DIV
+   Siemens Healthineers                (DAX): largest RPT EUR   1500 m vs threshold EUR   691 m →  2.2x · Ausnahme: CONSOL
+   Telekom Austria                     (ATX): largest RPT EUR    243 m vs threshold EUR   135 m →  1.8x · Ausnahme: ORDINARY
+   OMV                                 (ATX): largest RPT EUR   1228 m vs threshold EUR   850 m →  1.4x · Ausnahme: ORDINARY
+   Merck KGaA                          (DAX): largest RPT EUR    990 m vs threshold EUR   774 m →  1.3x · Ausnahme: LEGACY
+   Volkswagen                          (DAX): largest RPT EUR  11941 m vs threshold EUR  9360 m →  1.3x · Ausnahme: ORDINARY
+   Erste Group Bank                    (ATX): largest RPT EUR    350 m vs threshold EUR   279 m →  1.3x · Ausnahme: PRO_RATA_DIV
+   Infineon Technologies               (DAX): largest RPT EUR    500 m vs threshold EUR   420 m →  1.2x · Ausnahme: ORDINARY
+   UNIQA Insurance Group               (ATX): largest RPT EUR    215 m vs threshold EUR   196 m →  1.1x · Ausnahme: CONSOL
+   Zalando                             (DAX): largest RPT EUR    122 m vs threshold EUR   120 m →  1.0x · Ausnahme: ORDINARY
+   Deutsche Telekom                    (DAX): largest RPT EUR   4600 m vs threshold EUR  4574 m →  1.0x · Ausnahme: LEGACY
+
+Distribution of applicable exemptions (only for the n_exceeds cases above):
+   ORDINARY: 6
+   PRO_RATA_DIV: 5
+   CONSOL: 3
+   LEGACY: 2
+   POST_DECONS: 1
+   (keine erkennbare): 1
