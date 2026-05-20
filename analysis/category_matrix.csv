@@ -1,0 +1,61 @@
+id,company,index,country,auditor,arms_length_stmt,SALES_TO_RP,PURCHASES_FROM_RP,RECEIVABLES_RP,PAYABLES_RP,LOANS_TO_RP,LOANS_FROM_RP,GUARANTEES,KMP_COMPENSATION,PENSION_RELATED,LEASES_RP,DIVIDENDS_RP,SHAREHOLDER_LOANS,JV_ASSOC_TRANSACTIONS,SUBSIDIARY_NONCONSOL,CASH_POOLING,SLA_SHARED_SERVICES,LICENSE_ROYALTY,FOUNDATION_CHARITY,REAL_ESTATE_RP,MA_RP
+01,Andritz,ATX,Austria,KPMG,True,False,False,False,False,False,False,True,True,False,False,False,False,True,True,True,False,True,False,False,False
+02,AT&S,ATX,Austria,Deloitte,True,False,False,False,False,False,False,False,True,False,False,True,False,True,True,False,False,True,True,False,False
+03,BAWAG Group,ATX,Austria,KPMG,True,False,False,False,False,False,False,True,True,False,False,False,False,True,True,False,False,False,False,False,False
+04,CA Immobilien Anlagen,ATX,Austria,EY,True,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+05,DO & CO,ATX,Austria,Unknown,True,False,False,False,False,False,False,False,True,False,False,False,False,True,True,False,False,False,True,True,False
+06,Erste Group Bank,ATX,Austria,PwC,True,False,False,False,False,False,False,False,True,True,False,True,False,True,True,False,True,False,True,False,False
+07,EVN,ATX,Austria,KPMG,True,False,False,True,True,False,False,False,True,True,False,True,False,True,False,False,False,False,False,False,False
+08,Lenzing,ATX,Austria,KPMG,True,False,False,False,False,True,False,False,True,True,False,False,False,True,False,False,False,False,False,False,False
+09,Mayr-Melnhof Karton,ATX,Austria,PwC,True,False,True,False,True,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False
+10,OMV,ATX,Austria,KPMG,True,False,False,False,False,True,True,True,True,True,False,False,True,True,False,False,False,False,False,False,True
+11,Österreichische Post,ATX,Austria,BDO,True,True,True,True,True,False,False,False,True,True,False,True,False,True,False,False,False,False,False,False,False
+12,PIERER Mobility,ATX,Austria,KPMG,True,False,False,True,False,False,False,False,True,False,False,False,True,True,False,False,False,True,False,False,False
+13,Raiffeisen Bank International,ATX,Austria,Deloitte,True,True,True,False,False,False,False,False,True,True,False,False,False,True,True,False,False,False,False,False,False
+14,Schoeller-Bleckmann,ATX,Austria,KPMG,True,True,True,True,True,False,False,False,True,True,False,True,False,True,True,False,False,False,True,False,False
+15,Telekom Austria / A1 Group,ATX,Austria,Deloitte,True,False,False,False,True,False,False,False,True,True,True,True,False,True,False,True,True,False,False,False,True
+16,UNIQA Insurance Group,ATX,Austria,PwC,True,False,False,False,False,False,False,False,True,True,False,True,True,True,False,False,False,False,True,False,False
+17,Verbund,ATX,Austria,EY,True,False,False,False,False,False,False,False,True,True,False,True,False,True,True,False,False,False,False,False,False
+18,Vienna Insurance Group,ATX,Austria,KPMG,True,True,False,True,True,False,False,True,True,True,False,True,True,True,True,True,False,False,False,False,False
+19,voestalpine,ATX,Austria,Deloitte,True,True,False,False,True,False,False,True,True,False,False,False,False,True,True,False,False,False,True,False,False
+20,Wienerberger,ATX,Austria,Deloitte,True,True,False,True,False,True,False,False,True,True,True,False,False,True,True,False,False,False,True,True,False
+21,Adidas,DAX,Germany,PwC,True,False,False,False,False,False,False,False,True,True,True,False,False,False,False,False,False,False,True,False,False
+22,Airbus,DAX,Germany,EY,True,False,False,False,False,False,False,False,True,True,False,False,False,True,True,False,False,False,False,False,False
+23,Allianz,DAX,Germany,PwC,True,False,False,False,False,False,False,False,True,True,False,False,True,True,True,True,False,False,False,False,False
+24,BASF,DAX,Germany,KPMG,True,True,True,True,True,False,True,False,True,True,True,False,False,True,False,False,False,False,False,False,False
+25,Bayer,DAX,Germany,PwC,True,False,False,False,False,False,False,False,True,True,False,False,False,True,True,False,False,False,False,False,False
+26,Beiersdorf,DAX,Germany,PwC,True,False,False,False,False,False,False,False,True,False,False,False,False,False,True,False,True,False,False,False,False
+27,BMW,DAX,Germany,PwC,True,False,False,False,True,False,False,False,True,True,False,False,False,True,True,False,False,False,False,False,True
+28,Brenntag,DAX,Germany,Deloitte,True,False,False,False,False,False,False,True,True,True,False,False,False,True,True,False,False,False,False,False,False
+29,Commerzbank,DAX,Germany,KPMG,True,False,False,True,False,True,False,True,True,True,False,False,False,True,True,False,False,False,False,False,False
+30,Continental,DAX,Germany,PwC,True,False,False,False,False,False,False,False,True,True,False,False,False,True,True,False,False,False,False,False,False
+31,Daimler Truck,DAX,Germany,KPMG,True,False,False,False,False,False,False,False,True,True,False,False,False,True,False,True,False,False,False,False,False
+32,Deutsche Bank,DAX,Germany,EY,True,False,False,False,False,True,False,False,True,True,False,False,False,True,False,False,False,False,False,False,False
+33,Deutsche Börse,DAX,Germany,PwC,True,True,False,False,False,False,False,False,True,True,False,False,False,True,True,False,False,False,False,False,False
+34,DHL Group,DAX,Germany,Deloitte,True,True,True,True,True,False,False,False,True,False,False,False,False,True,True,False,False,False,False,False,False
+35,Deutsche Telekom,DAX,Germany,Deloitte,True,False,False,False,False,True,True,False,True,True,True,False,True,True,False,False,False,False,False,False,False
+36,E.ON,DAX,Germany,KPMG,True,True,True,True,True,False,False,False,True,True,False,False,False,True,False,False,False,False,False,False,False
+37,Fresenius SE,DAX,Germany,PwC,True,False,False,False,False,False,True,False,True,True,False,False,False,True,False,True,False,False,True,False,False
+38,Fresenius Medical Care,DAX,Germany,PwC,True,True,True,True,True,False,False,False,True,False,False,True,False,True,False,False,True,True,True,False,False
+39,Hannover Rück,DAX,Germany,KPMG,True,False,False,False,False,False,False,False,True,True,False,True,False,True,True,False,False,False,False,False,False
+40,Heidelberg Materials,DAX,Germany,PwC,True,False,False,False,False,False,False,False,True,False,False,True,True,True,True,True,False,False,False,False,False
+41,Henkel,DAX,Germany,PwC,True,False,False,False,False,False,False,False,True,True,False,True,False,True,True,False,False,False,False,False,False
+42,Infineon Technologies,DAX,Germany,Deloitte,True,False,False,False,False,False,False,False,True,False,False,False,False,True,True,False,True,False,False,False,False
+43,Mercedes-Benz Group,DAX,Germany,KPMG,True,False,False,True,True,False,False,True,True,True,False,True,False,True,True,False,False,True,False,False,False
+44,Merck KGaA,DAX,Germany,Deloitte,True,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+45,MTU Aero Engines,DAX,Germany,KPMG,True,True,True,True,True,False,False,False,True,True,False,False,False,True,True,False,False,False,False,False,False
+46,Munich Re,DAX,Germany,KPMG,True,False,False,True,False,False,False,False,True,True,False,False,True,True,True,False,False,False,False,False,False
+47,Porsche AG,DAX,Germany,EY,True,False,False,False,False,True,False,False,True,False,False,True,True,True,True,True,False,False,False,False,False
+48,Porsche SE,DAX,Germany,PwC,True,False,True,True,True,False,False,False,True,True,False,False,False,True,False,False,False,False,False,False,False
+49,Qiagen,DAX,Germany,KPMG,True,True,False,False,False,True,False,False,True,False,False,False,True,True,False,True,False,False,False,False,False
+50,Rheinmetall,DAX,Germany,Deloitte,True,True,True,True,True,False,False,True,True,False,False,False,False,True,True,False,False,False,False,False,False
+51,RWE,DAX,Germany,Deloitte,True,True,True,True,True,True,False,False,True,True,False,False,True,True,True,False,False,True,False,False,False
+52,SAP,DAX,Germany,KPMG,True,False,False,False,False,False,False,False,True,True,False,False,False,True,False,False,False,False,True,False,False
+53,Sartorius,DAX,Germany,KPMG,True,True,True,True,True,False,False,False,True,True,False,True,False,True,True,False,True,True,False,False,False
+54,Siemens,DAX,Germany,PwC,True,True,True,True,True,False,False,True,True,True,False,False,False,True,False,False,False,False,True,False,False
+55,Siemens Energy,DAX,Germany,KPMG,True,True,True,True,True,False,False,True,True,True,True,False,False,True,True,False,True,True,True,True,True
+56,Siemens Healthineers,DAX,Germany,PwC,True,False,False,False,False,False,False,False,True,True,False,True,False,True,False,True,True,True,False,True,False
+57,Symrise,DAX,Germany,PwC,True,False,False,False,True,False,False,False,True,True,False,False,False,True,True,False,False,False,False,False,False
+58,Volkswagen,DAX,Germany,EY,True,False,False,True,True,True,False,False,True,False,False,True,False,True,True,False,False,False,False,False,False
+59,Vonovia,DAX,Germany,PwC,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+60,Zalando,DAX,Germany,EY,True,False,True,False,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False

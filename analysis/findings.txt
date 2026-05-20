@@ -1,0 +1,31 @@
+Population: 60 companies (ATX = 20, DAX = 40).
+Companies with explicit arm's-length / market-conditions statement: 60 / 60 (100%).
+Most frequently disclosed categories (n=60):
+  - KMP_COMPENSATION: 100%
+  - JV_ASSOC_TRANSACTIONS: 95%
+  - PENSION_RELATED: 67%
+  - SUBSIDIARY_NONCONSOL: 58%
+  - PAYABLES_RP: 38%
+Least frequently disclosed categories:
+  - SLA_SHARED_SERVICES: 13%
+  - LEASES_RP: 10%
+  - LOANS_FROM_RP: 7%
+  - REAL_ESTATE_RP: 7%
+  - MA_RP: 7%
+Categories where DAX disclosure exceeds ATX the most (pp):
+  - PURCHASES_FROM_RP: DAX 30% vs ATX 20%  (Δ +10pp)
+  - PENSION_RELATED: DAX 70% vs ATX 60%  (Δ +10pp)
+  - RECEIVABLES_RP: DAX 38% vs ATX 30%  (Δ +8pp)
+Categories where ATX disclosure exceeds DAX the most (pp):
+  - FOUNDATION_CHARITY: ATX 40% vs DAX 15%  (Δ -25pp)
+  - DIVIDENDS_RP: ATX 45% vs DAX 22%  (Δ -22pp)
+  - GUARANTEES: ATX 25% vs DAX 15%  (Δ -10pp)
+Average category breadth (categories disclosed per company): 6.3 of 20 (32%).
+  ATX mean: 6.5; DAX mean: 6.2.
+Auditor concentration (Group auditor identified):
+  - KPMG: 20 (33%)
+  - PwC: 19 (32%)
+  - Deloitte: 12 (20%)
+  - EY: 7 (12%)
+  - Unknown: 1 (2%)
+  - BDO: 1 (2%)
