@@ -32,7 +32,7 @@ Ein Geschäft eines börsenotierten Unternehmens mit einer nahestehenden Person 
 Drei Merkmale der österreichischen Schwellenformel verdienen Hervorhebung:
 
 - Die **"oder"-Verknüpfung** der beiden Bezugsgrößen wirkt als Doppel-Sieb: Es genügt, wenn *eine* Quote erfüllt ist. Aus Sicht des Emittenten bindet daher die *jeweils niedrigere* absolute Schwelle der beiden. Für umsatzschwache, bilanzsummenstarke Geschäftsmodelle (Banken, Versicherungen, Immobiliengesellschaften) ist die 2,5 %-Umsatzschwelle in der Regel deutlich strenger als die 5 %-Bilanzschwelle. Für den umgekehrten Fall — typischer Industrieemittent mit Umsatz > Bilanzsumme — bindet die 5 %-Bilanzschwelle.
-- Die **12-Monats-Aggregation** verhindert eine bewusste Zerlegung größerer Transaktionen in kleinere Teilgeschäfte zur Umgehung des Tatbestands.
+- Die **Aggregationsregel** verhindert eine bewusste Zerlegung größerer Transaktionen in kleinere Teilgeschäfte zur Umgehung des Tatbestands: Geschäfte mit derselben nahestehenden Person, die innerhalb des laufenden Geschäftsjahres abgeschlossen werden, sind in ihrem Wert zu summieren.[^4a]
 - Bei Banken und Versicherungen ist die Auslegung des Begriffs "Umsatzerlöse" technisch heikel: Die Konzernabschlüsse weisen diese Größe in der klassischen IFRS-Form nicht aus. In der Praxis wird auf eine sektorgerechte Surrogatgröße abgestellt — bei Banken das Operating Income (Zinsergebnis + Provisionsergebnis + Handels- und sonstige Erträge), bei Versicherungen die gebuchten Bruttoprämien.
 
 Bei Erreichen der Schwelle löst das Geschäft eine **Zustimmungspflicht** des Aufsichtsrats oder eines hierzu eingerichteten Ausschusses aus (§ 95b AktG), wobei die betroffenen RP-Mitglieder einem Stimmverbot unterliegen. Hinzu tritt die **Veröffentlichungspflicht** auf der Internetseite des Emittenten nach § 95c AktG, mit einer Mindestverfügbarkeit von fünf Jahren. Die **Ausnahmen** sind in § 95d AktG geregelt; sie umfassen insbesondere Geschäfte mit vollkonsolidierten Tochterunternehmen, Geschäfte im ordentlichen Geschäftsgang zu marktüblichen Bedingungen, sowie Vorgänge, die der Gleichbehandlung aller Aktionäre dienen (insbesondere anteilige Dividenden, eigene Aktien, Kapitalmaßnahmen).
@@ -78,13 +78,14 @@ Aus den FY2024-Konzernabschlüssen wurde für jeden der 60 Emittenten die Bilanz
 | Minimum | 6 (CA Immo) | 82 (Qiagen)\* |
 | 25-%-Quantil | 54 | 483 |
 | **Median** | **108** | **1.000** |
-| 75-%-Quantil | 206 | 2.008 |
+| Mittelwert | 172 | 2.519 |
+| 75-%-Quantil | 207 | 2.008 |
 | Maximum | 850 (OMV) | 20.925 (Deutsche Bank) |
-| Standardabweichung | 215 | 4.318 |
+| Standardabweichung | 194 | 4.365 |
 
 \* Qiagen NV ist niederländisch domiziliert und unterliegt der niederländischen SRD-II-Umsetzung (art 2:167 BW); die hier angesetzten 1,5 % der Bilanzsumme dienen als Vergleichsproxy.
 
-Der **zentrale Befund** ist unmittelbar ablesbar: Trotz der nominell höheren Prozentquote im österreichischen Recht (5 % gegenüber 1,5 % in Deutschland) liegt der Median des absoluten Schwellenbetrags bei ATX-Emittenten ungefähr eine Größenordnung *unter* dem DAX-Median (EUR 108 Mio. gegenüber EUR 1.000 Mio., Faktor 9,3×). Die *Streuung* ist im DAX zudem deutlich breiter (Standardabweichung EUR 4,3 Mrd. gegenüber EUR 215 Mio. im ATX), was die Heterogenität des DAX zwischen kleineren Spezialwerten (Qiagen, Symrise, Zalando) und Großbanken/Versicherern (Deutsche Bank, Allianz) widerspiegelt.
+Der **zentrale Befund** ist unmittelbar ablesbar: Trotz der nominell höheren Prozentquote im österreichischen Recht (5 % gegenüber 1,5 % in Deutschland) liegt der Median des absoluten Schwellenbetrags bei ATX-Emittenten ungefähr eine Größenordnung *unter* dem DAX-Median (EUR 108 Mio. gegenüber EUR 1.000 Mio., Faktor 9,3×). Der *arithmetische Mittelwert* zeigt einen noch deutlicheren Abstand (EUR 172 Mio. vs EUR 2.519 Mio., Faktor 14,6×); er wird allerdings stärker von den DAX-Extremwerten (Allianz, Deutsche Bank, Volkswagen) verzerrt und ist daher rechtsvergleichend weniger aussagekräftig als der Median. Die *Streuung* ist im DAX deutlich breiter (Standardabweichung EUR 4,4 Mrd. gegenüber EUR 194 Mio. im ATX), was die Heterogenität des DAX zwischen kleineren Spezialwerten (Qiagen, Symrise, Zalando) und Großbanken/Versicherern (Deutsche Bank, Allianz) widerspiegelt.
 
 Die Erklärung der Differenz hat zwei Komponenten:
 
@@ -99,15 +100,16 @@ Zusammen führen beide Effekte zu dem in Abbildung 1 visualisierten Bild: Die Ve
 
 Bevor die empirische Frage "wer überschreitet?" beantwortet wird, ist eine Abgrenzung notwendig, die im laufenden Anwendungs­diskurs nicht immer klar getroffen wird. Folgende Vorgänge, die in den IAS-24-Anhangabschnitten der Konzernabschlüsse auftauchen, fallen *nicht* unter den Tatbestand des § 95a AktG bzw § 111a dAktG und sind daher auch nicht Gegenstand einer "Ausnahme":
 
-- **Anteilige Dividenden an alle Aktionäre.** Die Dividende fließt dem kontrollierenden Gesellschafter *qua Aktionärsstellung* zu, nicht *qua nahestehender Person*. Sie ist daher kein "Geschäft mit einer nahestehenden Person" iSd § 95a AktG. Aus diesem Grund nennt § 111a Abs 3 Nr 3 dAktG die "Geschäfte, die einem Ausschüttungsanspruch entsprechen, der allen Aktionären zusteht" auch als ausgeschlossen — präziser formuliert: als außerhalb des Tatbestands. § 95d AktG enthält die parallele Ausschließung.
+- **Anteilige Dividenden an alle Aktionäre.** Die Dividende fließt dem kontrollierenden Gesellschafter *qua Aktionärsstellung* zu, nicht *qua nahestehender Person*. Sie ist daher kein "Geschäft mit einer nahestehenden Person" iSd § 95a AktG. Aus diesem Grund nennt § 111a Abs 3 Nr 3 dAktG die "Geschäfte, die einem Ausschüttungsanspruch entsprechen, der allen Aktionären zusteht" als ausgeschlossen — präziser formuliert: als außerhalb des Tatbestands. § 95d AktG enthält die parallele Ausschließung.
+- **Beteiligungserträge aus Equity-Method-Anteilen.** Wenn die Emittentin als *Anteilseignerin* an einer assoziierten Gesellschaft Dividenden empfängt, ist dies ein passiver Investmentertrag, der bereits an der Ausschüttungsquelle pro-rata erfolgt; sie schließt mit der ausschüttenden Gesellschaft kein bilaterales "Geschäft" ab. Konsistent mit der vorgenannten Tatbestandsabgrenzung liegt eine Empfangs-Dividende von einer assoziierten Gesellschaft mithin ebenfalls außerhalb des § 95a/§ 111a-Tatbestands.
 - **Bestandsgrößen aus früheren Geschäftsabschlüssen.** § 95a AktG / § 111a dAktG knüpft an *abgeschlossene Geschäfte* an. Eine bilanzielle Forderung oder Verbindlichkeit, die aus einer in einem früheren Jahr abgeschlossenen Transaktion stammt (etwa eine Sale-and-Leaseback-Verbindlichkeit aus 2023 oder eine konzerninterne Finanzverbindlichkeit aus den 1980er Jahren), erfüllt im laufenden Berichtsjahr keinen *neuen* Tatbestand. Der Tatbestand war bei Abschluss zu prüfen, nicht jährlich neu.
 - **Vorstandsvergütungen** sind nach § 95a AktG bzw § 111a dAktG eigens ausgenommen, weil ihre Transparenz durch den separat veröffentlichten Vergütungsbericht (§ 78c AktG / § 162 dAktG) gewährleistet ist.
 
-Diese drei Fallgruppen sind aus dem empirischen Test ausgeklammert.[^6] Eine ungeprüfte Aufnahme würde den Befund quantitativ aufblähen, ohne ihn rechtlich aussagekräftiger zu machen.
+Diese vier Fallgruppen sind aus dem empirischen Test ausgeklammert.[^6] Eine ungeprüfte Aufnahme würde den Befund quantitativ aufblähen, ohne ihn rechtlich aussagekräftiger zu machen.
 
 ## 2. Bereinigte Liste der nominellen Überschreiter
 
-Nach Bereinigung um Pro-rata-Dividenden (5 Fälle: CA Immo, Verbund, EVN-empfangene Dividende vom Verbund-Beteiligungsunternehmen, Porsche SE, Erste Group) und Bestandsgrößen aus früheren Jahren (2 Fälle: Merck KGaA, Deutsche Telekom) verbleiben **elf Emittenten**, deren größter quantifiziert offengelegter RPT-Einzelposten den bindenden Schwellenwert numerisch überschreitet (Tabelle 2). Hinzu kommt ein zwölfter Sonderfall — PIERER Mobility — dessen Einordnung sub specie § 95a AktG offen ist und im Folgenden gesondert erörtert wird.
+Nach Bereinigung um Pro-rata-Dividenden (vier Fälle: CA Immo, Verbund, Porsche SE, Erste Group), um Beteiligungserträge aus Equity-Method-Anteilen (ein Fall: EVN — die EUR 182 Mio. sind eine *empfangene* Dividende aus EVN's Equity-Method-Beteiligungen an Verbund-Innkraftwerken; ein Beteiligungsertrag, der bereits an seiner Quelle pro-rata an alle Anteilseigner ausgeschüttet wird und der bei EVN als Investmentertrag, nicht als RP-Geschäft erscheint) sowie um Bestandsgrößen aus früheren Geschäftsjahren (zwei Fälle: Merck KGaA, Deutsche Telekom) verbleiben **elf Emittenten**, deren größter quantifiziert offengelegter RPT-Einzelposten den bindenden Schwellenwert numerisch überschreitet (Tabelle 2). Einer dieser elf Fälle — PIERER Mobility — wird wegen der besonderen Konstellation einer im Berichtsjahr erfolgten Dekonsolidierung gesondert in Abschnitt V.3 erörtert.
 
 **Tabelle 2: Emittenten mit RPT-Einzelposten oberhalb der bindenden Schwelle (bereinigt, FY2024)**
 
@@ -115,17 +117,17 @@ Nach Bereinigung um Pro-rata-Dividenden (5 Fälle: CA Immo, Verbund, EVN-empfang
 |---:|---|---|---:|---:|---:|---|
 | 1 | Siemens Energy | DAX | 2.081 | 841 | 2,5× | keine — Bekanntmachung Dezember 2023 erfolgt |
 | 2 | BASF | DAX | 2.943 | 1.206 | 2,4× | ordentlicher Geschäftsgang |
-| 3 | Porsche AG | DAX | 2.062 | 908 | 2,3× | Konzernprivileg (Tochterunternehmen) |
-| 4 | Siemens Healthineers | DAX | 1.500 | 691 | 2,2× | Konzernprivileg |
+| 3 | Porsche AG | DAX | 2.062 | 908 | 2,3× | Konzernprivileg[^7] (Cash-Pool mit VW als Mehrheitsgesellschafter) |
+| 4 | Siemens Healthineers | DAX | 1.500 | 691 | 2,2× | Konzernprivileg[^7] (Treasury mit Siemens AG als Mehrheitsgesellschafter) |
 | 5 | Telekom Austria | ATX | 243 | 135 | 1,8× | ordentlicher Geschäftsgang |
 | 6 | OMV | ATX | 1.228 | 850 | 1,4× | ordentlicher Geschäftsgang (Bürgschaft an JV) |
 | 7 | Volkswagen | DAX | 11.941 | 9.360 | 1,3× | ordentlicher Geschäftsgang |
 | 8 | Infineon Technologies | DAX | 500 | 420 | 1,2× | ordentlicher Geschäftsgang (Mehrjahrestranchen) |
-| 9 | UNIQA Insurance Group | ATX | 215 | 196 | 1,1× | Konzernprivileg |
+| 9 | UNIQA Insurance Group | ATX | 215 | 196 | 1,1× | Konzernprivileg (UNIQA Re als vollkonsolidierte Tochter) |
 | 10 | Zalando | DAX | 122 | 120 | 1,0× | ordentlicher Geschäftsgang |
-| (Sonderfall) | PIERER Mobility | ATX | 372 | 47 | 7,9× | offen — siehe V.3 |
+| 11 | PIERER Mobility | ATX | 372 | 47 | 7,9× | offen — Sonderfall Dekonsolidierung, siehe V.3 |
 
-Die quantitative Verteilung der einschlägigen Ausnahmen ist eindeutig: **Sechs** der elf Fälle (55 %) werden durch die Ausnahme "ordentlicher Geschäftsgang zu marktüblichen Bedingungen" abgedeckt; **drei** Fälle (27 %) durch das Konzernprivileg für Tochterunternehmen; in **einem** Fall (Siemens Energy) ist die Ausnahme nicht einschlägig — der Emittent hat dort tatsächlich eine § 111c-Bekanntmachung publiziert (allerdings im Dezember 2023, also vor dem Kalenderjahr 2024).
+Die quantitative Verteilung der einschlägigen Ausnahmegründe über die elf Fälle ist eindeutig: **sechs** Fälle (55 %) werden durch die Ausnahme "ordentlicher Geschäftsgang zu marktüblichen Bedingungen" abgedeckt; **drei** Fälle (27 %) durch das Konzernprivileg; in **einem** Fall (Siemens Energy) ist keiner der gesetzlichen Ausnahmetatbestände einschlägig — der Emittent hat dort tatsächlich eine § 111c-Bekanntmachung publiziert (allerdings im Dezember 2023, also vor dem Kalenderjahr 2024); ein **elfter** Fall (PIERER Mobility) bleibt rechtlich offen und wird unter V.3 erörtert.
 
 ## 3. Der Sonderfall PIERER Mobility
 
@@ -208,6 +210,10 @@ Vor Verabschiedung des nächsten Konzernabschlusses sollten Vorstand, Prüfungsa
 
 [^4]: § 95a AktG idF AktRÄG 2019; die exakte Verortung der Schwellenwerte (Abs 1 Z 2 oder Abs 2) ist gegenüber dem Wortlaut der konsolidierten Fassung zu prüfen.
 
+[^4a]: Vgl. SRD II Art 9c Abs 4 sowie die nationalen Umsetzungen in § 95a AktG (AT) bzw § 111b Abs 1 Satz 2 dAktG (DE). Die Aggregation bezieht sich auf gleichartige Geschäfte *mit derselben nahestehenden Person* innerhalb des laufenden Geschäftsjahres.
+
 [^5]: § 111b Abs 1 Satz 1 dAktG idF ARUG II.
 
-[^6]: Die hier praktizierte Bereinigung wirkt strenger als der bloße Tatbestandsausschluss nahelegt: Pro-rata-Dividenden, Altbestände und Vorstandsvergütungen werden *vollständig* aus dem empirischen Test ausgeschlossen. Im Ergebnis reduziert sich die Zahl der nominellen Überschreitungen von 18 (Rohdaten) auf 11 (bereinigt), zuzüglich des Sonderfalls PIERER Mobility.
+[^6]: Die hier praktizierte Bereinigung wirkt strenger als der bloße Tatbestandsausschluss nahelegt: Pro-rata-Dividenden, Beteiligungserträge aus Equity-Method-Anteilen, Altbestände und Vorstandsvergütungen werden *vollständig* aus dem empirischen Test ausgeschlossen. Im Ergebnis reduziert sich die Zahl der nominellen Überschreitungen von 18 (Rohdaten) auf 11 (bereinigt; einschließlich PIERER Mobility als Sonderfall).
+
+[^7]: Die Anwendung des Konzernprivilegs (§ 95d Z 1 AktG bzw § 111a Abs 3 Nr 1 dAktG) auf Geschäfte mit dem *Mutterunternehmen* ist nicht unstreitig. § 111a Abs 3 Nr 1 dAktG erfasst nach dem Wortlaut "Geschäfte mit Tochterunternehmen". Eine strikt-textliche Auslegung würde Konzern-Cash-Pools und Konzern-Treasury-Strukturen, in denen die börsenotierte Gesellschaft *Schuldnerin* ihrer eigenen Mutter ist, nicht erfassen; sie müssten dann auf die Ausnahme "ordentlicher Geschäftsgang" gestützt werden. Die in Lehre und Praxis vorherrschende teleologische Lesart erfasst beide Richtungen — das *Konzern*verhältnis steht im Vordergrund, nicht die Richtung des Leistungsflusses. Die in Tabelle 2 verwendete Klassifikation folgt der teleologischen Lesart.
